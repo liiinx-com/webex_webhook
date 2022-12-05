@@ -1,0 +1,6 @@
+1. install pip
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.9
+
+2. 
+
+ /project/home/liiinx-com/.local/lib/python3.9/site-packages/pip
