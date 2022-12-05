@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -10,9 +10,10 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 
-@app.post("/webook")
+@app.post('/webhook')
 def webex_webhook():
     print("here")
+    print(request.get_json())
     return "<p>Hello, World!</p>"
     
 
